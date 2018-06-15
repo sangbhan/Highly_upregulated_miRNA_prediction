@@ -1,1 +1,1 @@
-# miRNA_motif_discovery
+# miRNA motif discovery
