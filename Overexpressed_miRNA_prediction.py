@@ -1,4 +1,4 @@
-﻿# This program finds overexpressed motifs and predicts overexpressed miRNAs for a given transcriptome data.
+# This program predicts the overexpressed miRNA in given transcriptome data.
 
 import sys, time
 
