@@ -1074,11 +1074,11 @@ def FoldChgRef(cRefList, nDataNum):
 
     try:
 
-        InFile = open("Mission5_Dataset" + str(nDataNum + 1) + ".txt", "r")
+        InFile = open("Dataset" + str(nDataNum + 1) + ".txt", "r")
 
     except IOError:
 
-        print("\nMission5_Dataset" + str(nDataNum + 1) + ".txt: No such file or directory\n")
+        print("\nDataset" + str(nDataNum + 1) + ".txt: No such file or directory\n")
 
         sys.exit()
 
