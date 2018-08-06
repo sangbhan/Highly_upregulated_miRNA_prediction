@@ -8,4 +8,5 @@ The program inputs gene expression fold change values and outputs the overexpres
 For example, the program should output miR-1 if inputting gene expression fold change values of miR-1 transfected HeLa cells.
 
 The program first finds miRNA motifs that are enriched in down-regulated genes in miR-1 transfected Hela cells.
-Then, the program reports miRNAs having that miRNA motifs, so in this case, it should report miR-1.
+Then, the program reports miRNAs having that miRNA motifs.
+So, in this case, it should report miR-1.
