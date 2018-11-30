@@ -1,5 +1,5 @@
-# Prediction of upregulated miRNAs using gene expression change data
+# Prediction of highly upregulated miRNAs using gene expression change data
 
-I coded this program for Introduction to Computer Science for Biologists course project (Spring 2016 semester, Prof. Daehyun Baek, <http://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=17>). This program finds upregulated miRNAs using gene expression change data. 
+I coded this program for Introduction to Computer Science for Biologists course project (Spring 2016 semester, Prof. Daehyun Baek, <http://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=17>). This program finds highly upregulated miRNAs using gene expression change data. 
 
 First, I coded the program to create a 2 × 2 contingency table for each miRNA by classifying genes in terms of whether or not the gene was highly downregulated and whether there was a binding site for the miRNA in the 3' UTR of the gene. Then, I programmed it to perform Fisher’s exact test on the contingency table and to find the most significantly enriched miRNA-binding site in the 3' UTR of the highly downregulated genes. I tested the program with gene-expression change data from HeLa cells transfected with miR-1 and found that the miR-1 binding site is the most significantly enriched miRNA-binding site in the 3' UTR of the highly downregulated genes.
