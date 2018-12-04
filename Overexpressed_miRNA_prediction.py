@@ -1,4 +1,4 @@
-# This program predicts the overexpressed miRNA in a given transcriptome data.
+# This program predicts the highly upregulated miRNA using gene expression change data.
 
 import sys, time
 
